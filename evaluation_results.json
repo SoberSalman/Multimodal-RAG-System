@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-04-28 00:36:33",
+  "total_queries": 5,
+  "performance_metrics": {
+    "avg_response_time": 10.41245083808899,
+    "std_response_time": 4.652403975213903,
+    "p95_response_time": 16.872635555267333,
+    "avg_sources_per_query": 0.0,
+    "prompt_type_distribution": {
+      "zero_shot": 2,
+      "cot": 2,
+      "few_shot": 1
+    },
+    "avg_retrieval_distance": 0,
+    "std_retrieval_distance": 0
+  },
+  "coverage_metrics": {
+    "type_distribution": {},
+    "source_distribution": {},
+    "unique_pages_accessed": 0,
+    "total_chunks_retrieved": 0
+  },
+  "similarity_metrics": {
+    "mean_similarity": 

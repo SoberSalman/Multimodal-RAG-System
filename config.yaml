@@ -1,0 +1,24 @@
+llm:
+  endpoint_url: "http://0.0.0.0:1234/v1/chat/completions"
+  model: "gemma-2-2b-it:2"
+  temperature: 0.7
+  max_tokens: 2048
+
+embeddings:
+  model_name: "all-MiniLM-L6-v2"
+  dimension: 384
+
+vector_store:
+  type: "faiss"
+  collection_name: "rag_documents"
+
+chunking:
+  chunk_size: 500
+  chunk_overlap: 50
+
+retrieval:
+  top_k: 5
+
+data:
+  pdf_directory: "data/"
+  temp_directory: "temp/"
